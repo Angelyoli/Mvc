@@ -1,27 +1,22 @@
-﻿    {
-        "version": "0.1-alpha-*",
-        "compilationOptions": {
-            "warningsAsErrors": true
-        },
-        "dependencies": {
-            "BasicWebSite": "",
-            "Microsoft.AspNet.TestHost": "0.1-alpha-*",
-            "Microsoft.Framework.Runtime.Interfaces": "0.1-alpha-*",
-            "xunit.abstractions": "2.0.0-aspnet-*",
-            "xunit.assert": "2.0.0-aspnet-*",
-            "xunit.core": "2.0.0-aspnet-*",
-            "Xunit.KRunner": "0.1-alpha-*"
-        },
-        "commands": {
-            "test": "Xunit.KRunner"
-        },
-        "configurations": {
-            "net45": { },
-            "k10": {
-                "dependencies": {
-                    "System.Runtime": "4.0.20.0",
-                    "System.Reflection.Extensions": "4.0.0.0"
-                }
-            }
-        }
+﻿{
+    "version": "0.1-alpha-*",
+    "compilationOptions": {
+        "warningsAsErrors": true
+    },
+    "dependencies": {
+        "BasicWebSite": "",
+        "Microsoft.AspNet.TestHost": "0.1-alpha-*",
+        "Microsoft.Framework.Runtime.Interfaces": "0.1-alpha-*",
+        "xunit.abstractions": "2.0.0-aspnet-*",
+        "xunit.assert": "2.0.0-aspnet-*",
+        "xunit.core": "2.0.0-aspnet-*",
+        "Xunit.KRunner": "0.1-alpha-*"
+    },
+    "commands": {
+        "test": "Xunit.KRunner"
+    },
+    "configurations": {
+        "net45": { },
+        "k10": { }
     }
+}

@@ -25,7 +25,6 @@
     <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="BasicWebSite.Home.Index.html" />
     <Content Include="compiler\resources\BasicWebSite.Home.Index.html" />
     <Content Include="project.json" />
   </ItemGroup>
