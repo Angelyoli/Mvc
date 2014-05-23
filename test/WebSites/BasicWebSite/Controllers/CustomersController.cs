@@ -21,6 +21,7 @@ namespace BasicWebSite
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(Customer newCustomer)
         {
             if (!ModelState.IsValid)
@@ -39,6 +40,7 @@ namespace BasicWebSite
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, Customer customer)
         {
             if (!ModelState.IsValid)
@@ -59,6 +61,7 @@ namespace BasicWebSite
 
         [HttpPost]
         [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
             return RedirectToAction("Index");
